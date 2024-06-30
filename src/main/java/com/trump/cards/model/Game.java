@@ -84,6 +84,7 @@ public class Game {
     @Getter(AccessLevel.PUBLIC)
     private int[] pairsWon;
     private int currentPlayerIndex;
+    private List<ChatMessage> chatMessages;
 
 
     // Method to check if a team has won
